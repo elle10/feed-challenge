@@ -15,12 +15,4 @@ RSpec.describe FeedController do
       expect(response).to have_http_status(200)
     end
   end
-    # it "returns error if not authorized" do
-    #   user = FactoryGirl.create(:user)
-    #   user.confirm!
-    #   trips_count = 5
-    #   FactoryGirl.create_list(:requested_trip, trips_count, user: user)
-    #   get :all_trips_user
-    #   expect(response).not_to have_http_status(200)
-    # end
 end

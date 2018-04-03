@@ -44,14 +44,10 @@ group :development, :test do
 end
 group :test do
   gem 'rspec-rails', '~> 3.5'
-  gem 'factory_girl_rails'
-  gem 'faker'
   gem 'database_cleaner'
   gem 'shoulda', '~> 3.5'
   gem 'shoulda-matchers', '~> 2.0'
   gem 'shoulda-kept-respond-with-content-type', '~> 1.0'
-  gem 'rspec-sidekiq'
-  gem 'rspec-activemodel-mocks'
 end
 
 group :development do
